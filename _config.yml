@@ -1,0 +1,52 @@
+# Site Settings
+lang: en
+title: Tripal
+tagline: An open-source toolkit for construction of genomic, genetic, breeding and biological databases.
+description: >- # this means to ignore newlines until "baseurl:"
+  Tripal is a toolkit for construction of online biological (genetics, genomics, breeding, etc), community database, and is a member of the GMOD family of tools. Tripal provides by default integration with the GMOD Chado database schema and Drupal, a popular Content Management Systems (CMS). Tripal is licensed under the GNU General Public License version 2.
+
+  Genomics, genetics, breeding and other biological data are increasingly complicated and time consuming to publish online for other researchers to search, browse and make discoveries.   Tripal provides a framework to reduce the complexity of creating such a site, and provides access to a community of similar groups that share community-standards, and interact to address questions and learn best practices for sharing, storing and visualizing complex biological data.
+
+baseurl: ""
+url: ""
+permalink: pretty
+github_username: tripal
+#favicon: /path/to/favicon.png
+#gh_sponsor: githubusername
+#hide_share_buttons: true
+#theme_color: '#eeeeee'
+#fixed_navbar: top
+#direction: one of <ltr, rtl, auto>, default: ltr
+force_theme: light
+
+theme: bulma-clean-theme
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  # shortname: my_disqus_shortname
+  shortname:
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
