@@ -12,15 +12,20 @@ url: ""
 permalink: pretty
 github_username: tripal
 #favicon: /path/to/favicon.png
-#gh_sponsor: githubusername
-#hide_share_buttons: true
-#theme_color: '#eeeeee'
-#fixed_navbar: top
-#direction: one of <ltr, rtl, auto>, default: ltr
+#gh_sponsor: tripal
 force_theme: light
 
 theme: bulma-clean-theme
 
+# Front matter Defaults.
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      show_sidebar: false
+
+# Blog Post Pagination.
 paginate: 5
 paginate_path: "/blog/page:num"
 
