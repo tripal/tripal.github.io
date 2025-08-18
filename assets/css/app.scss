@@ -2,5 +2,57 @@
 ---
 
 $primary: #28282F;
-// Import Main CSS file from theme
+$link: #990000;
+
+:root {
+  --bulma-navbar-height: 8rem !important;
+}
+
+// Navbar.
+.navbar-brand .navbar-item {
+  margin: 0;
+
+  img, svg {
+    max-height: calc(2.5 * var(--bulma-navbar-item-img-max-height));
+    margin-top: 20px;
+  }
+}
+a.navbar-item, .navbar-link {
+  background-color: inherit !important;
+  margin: 2.5rem 0;
+
+  .is-active {
+    color: #555;
+    background-color: #e7e7e7 !important;
+  }
+}
+
+// Frontpage Header.
+.frontpage-panel {
+  background: #131313;
+  background-image: url("/images/hexagon_pattern.png") !important;
+  background-repeat: repeat !important;
+
+  .navbar {
+    background: transparent !important;
+  }
+  .hero {
+    background: transparent !important;
+  }
+  .hero .site-description {
+    padding: 0 9rem;
+    margin: 4.5rem 0;
+  }
+  // Callouts.
+  .callout.columns a {
+    color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) !important;
+  }
+  .callout.columns .column p.subtitle {
+    border-bottom: 3px solid #990000;
+    padding-bottom: var(--bulma-column-gap);
+    height: 65px;
+  }
+}
+
+// Import Main CSS file from theme.
 @import "main";
