@@ -3,9 +3,7 @@ lang: en
 title: Tripal
 tagline: An open-source toolkit for construction of genomic, genetic, breeding and biological databases.
 description: >- # this means to ignore newlines until "baseurl:"
-  Tripal is a toolkit for construction of online biological (genetics, genomics, breeding, etc), community database, and is a member of the GMOD family of tools. Tripal provides by default integration with the GMOD Chado database schema and Drupal, a popular Content Management Systems (CMS). Tripal is licensed under the GNU General Public License version 2.
-
-  Genomics, genetics, breeding and other biological data are increasingly complicated and time consuming to publish online for other researchers to search, browse and make discoveries.   Tripal provides a framework to reduce the complexity of creating such a site, and provides access to a community of similar groups that share community-standards, and interact to address questions and learn best practices for sharing, storing and visualizing complex biological data.
+  Tripal is a toolkit for construction of online biological (genetics, genomics, breeding, etc), community database web portals. Use Tripal out-of-the box to create a basic genomics site (with no programming) or customize using Tripal's Application Programming Interface (API). Tripal is free and open-source (GNU General Public License version 2), allows for extensive customization and is backed by a helpful user community. A strength of Tripal is our community of developers. Customization and extension of Tripal can be created and shared with other sites as modules allowing you to create your own tools and visualizations or leverage those developed by groups around the world.
 
 baseurl: ""
 url: ""
@@ -24,10 +22,6 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       show_sidebar: false
-
-# Blog Post Pagination.
-paginate: 5
-paginate_path: "/blog/page:num"
 
 # Disqus Comments
 disqus:
