@@ -1,20 +1,17 @@
-style: is-light
-height: is-medium
 items:
   - title: Usage Guide
     subtitle: Installation, Site Building and Administration
     icon: fa-book-open
+    url: https://tripaldoc.readthedocs.io/en/latest/
   - title: Developer Handbook
     subtitle: Customize or Extend Tripal for your community
     icon: fa-code
+    url: https://tripaldoc.readthedocs.io/en/latest/dev_guide.html
   - title: Join us on GitHub
     subtitle: Open-source and Community Developed
     icon: fa-github
     icon_brand: true
-  - title: Site Demo
-    subtitle: Demonstration Docker Images
-    icon: fa-docker
-    icon_brand: true
+    url: https://github.com/tripal/tripal/
   - title: Support
     subtitle: Ask our Community
     icon: fa-question
