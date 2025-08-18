@@ -1,0 +1,6 @@
+- name: Features
+  link: /features/
+- name: Citations
+  link: /citations/
+- name: Download & Install
+  link: https://tripaldoc.readthedocs.io/en/latest/install.html
