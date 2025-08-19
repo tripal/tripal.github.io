@@ -1,6 +1,14 @@
-- name: Features
-  link: /features/
-- name: Citations
-  link: /citations/
 - name: Download & Install
   link: https://tripaldoc.readthedocs.io/en/latest/install.html
+- name: Support
+  link: /support/
+- name: Citations
+  link: /citations/
+- name: API
+  link: https://tripal.fans/t4docs/
+- name: GitHub
+  link: https://github.com/tripal/tripal
+- name: Drupal
+  link: https://www.drupal.org/project/tripal
+- name: Packagist
+  link: https://packagist.org/packages/tripal/tripal
