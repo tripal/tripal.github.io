@@ -8,6 +8,9 @@ $link: #990000;
   --bulma-navbar-height: 8rem !important;
   --tripal-gray: hsl(40deg, 10%, 15%);
 }
+.hero.is-primary {
+  --bulma-hero-body-padding-medium: 4.5rem !important;
+}
 .navbar.is-primary {
   --bulma-navbar-background-color: var(--tripal-gray) !important;
 }
