@@ -6,6 +6,15 @@ $link: #990000;
 
 :root {
   --bulma-navbar-height: 8rem !important;
+  --tripal-gray: hsl(40deg, 10%, 15%);
+}
+.navbar.is-primary {
+  --bulma-navbar-background-color: var(--tripal-gray) !important;
+}
+.hero.is-primary {
+  --bulma-hero-h: 40deg !important;
+  --bulma-hero-s: 15% !important;
+  --bulma-hero-background-l: 5% !important;
 }
 
 // Navbar.
@@ -26,10 +35,15 @@ a.navbar-item, .navbar-link {
     background-color: #e7e7e7 !important;
   }
 }
+.navbar {
+  background: var(--tripal-gray);
+  background-image: url("/images/hexagon_pattern.png") !important;
+  background-repeat: repeat !important;
+}
 
 // Frontpage Header.
 .frontpage-panel {
-  background: #1f1f1f;
+  background: var(--tripal-gray);
   background-image: url("/images/hexagon_pattern.png") !important;
   background-repeat: repeat !important;
 
