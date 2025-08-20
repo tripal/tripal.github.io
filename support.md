@@ -11,11 +11,15 @@ If you have questions or topics of discussion you are welcome to join us on Slac
 
 ### Submit Bug Reports or Feature requests
 
-To request help, report bugs or suggest new features you can create a new issue on [Tripal's GitHub page](https://github.com/tripal/tripal/issues) on the Drupal website (requires a Drupal account). Alternatively, you can send a request to the mailing lists described below.
+To request report bugs or suggest new features please create a new issue on [Tripal's GitHub Issue Queue](https://github.com/tripal/tripal/issues). Alternatively, you can reach out to us on Slack if you want to gauge community interest or if you are more comfortable with the casual environment.
 
-### Receive Announcements.
+### Ask Questions
 
-If you would like to receive announcements about upcoming events, or releases of Tripal please consider subscribing to the Tripal Mailing List.
+You can ask questions or request support on [Our GitHub Discussion Channels](https://github.com/tripal/tripal/discussions) or in Slack. We do recomment more involved requests are made through GitHub discussions to ensure easier follow-up and help as many people as possible. Slack is ideal for short confirmation questions.
+
+### Receive Announcements
+
+If you would like to receive announcements about upcoming events, or releases of Tripal please consider joining our Slack community. We have a low volume #announcements channel that we use frequently. For new releases, you can Follow our GitHub project page.
 
 ### Drupal Security Feeds
 
